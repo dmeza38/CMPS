@@ -1,1 +1,95 @@
+body
+{
+  background-color: #F9F9F9;
+  margin-top: 0em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 0em;
+}
+.hero
+{
+  margin-top: 2em;
+  width: 100%
+}
+h1
+{
+  color: #9F2042;
+  font-family: 'Roboto Slab',serif;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0em;
 
+}
+
+#details
+{
+  color: #A9A9BA;
+  text-align: center;
+
+}
+
+blockquote
+{
+  background-color: #F9F9F9;
+  border: 1pt solid #ECECEC;
+  font-family: 'Roboto Slab' serif;
+  font-size: 1.25em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+article
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+article p
+{
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+footer
+{
+  background-color: #29293A;
+  color: #FFFFFF;
+  padding: 1em 0em;
+  margin: 0;
+}
+footer a:link, footer a:visited
+{
+  color: #EC8295;
+  text-decoration: none;
+}
+
+#buttons a
+{
+  border: 1pt solid #ECECEC;
+  border-radius: 5px;
+  padding: 1em;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#buttons
+{
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+#buttons a:link, buttons a:visited
+{
+  color: #EC8295;
+}
+#buttons a:hover
+{
+  color: #9F2042;
+  background-color: #A9A9BA;
+}
