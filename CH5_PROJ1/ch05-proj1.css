@@ -1,0 +1,95 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+ background-color: #ECEFF1;
+}
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238;
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+
+}
+.status-processing {
+    background-color:    #E65100;
+}
+.status-shipped {
+    background-color:   #4CAF50;
+}
+.status-pending {
+    background-color:    #03A9F4;
+}
+
+
+
+/* table formatting -- you will add these */
+table th
+{
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+table td
+{
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+}
+table tr
+{
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+caption
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #607D8B;
+  color: #FFFFFF;
+}
+
+legend
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 350px;
+  padding-right: 350px;
+  background-color: #607D8B;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+fieldset
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+label
+{
+  font-weight: bold !important;
+}
+input[type = submit]
+{
+  background-color: #690FAD;
+  color: #FFFFFF
+}
