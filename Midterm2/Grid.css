@@ -1,0 +1,231 @@
+:root {
+  --color-block-1: #7B93DB;
+  --color-block-2: #4C63B6;
+  --color-block-3: #2D3A8C;
+  --color-block-4: #EF4E4E;
+  --color-text-light: #F5F7FA;
+  --color-text-dark: #3E4C59;
+  --color-back: #F5F7FA;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, div, span, h1, h2, h3, h4, aside, p, main, nav, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: var(--color-text-dark);
+  background-color: var(--color-back);
+}
+
+h2, h3, h4 {
+  font-weight: 300;
+}
+
+.container {
+  padding: 25px;
+  width: 100%;
+}
+
+.container>div {
+  background-color: #616E7C;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 1.5em;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 75%, 0.2);
+}
+
+/* add your styles */
+.container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(10, 1fr);
+
+}
+
+#a {
+  display: flex;
+  grid-column: span 2;
+  height: 175px;
+  background-color: #FFFFFF;
+}
+
+#b {
+  grid-column: span 2;
+  height: 175px;
+  display: flex;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/b.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#c {
+  grid-column: span 2;
+  height: 175px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/c.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#d {
+  display: flex;
+  width: 100%;
+  grid-column: span 2;
+  height: 175px;
+  background-color:#2D3A8C;
+
+}
+
+#e {
+  height: 175px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/e.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#f {
+  height: 175px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/f.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#g {
+  grid-column: span 2;
+  grid-row: span 2;
+  height: 250px;
+  background-color: #FFFFFF;
+}
+
+#h {
+  grid-column: span 4;
+  grid-row: span 2;
+  height: 250px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/h.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#i {
+  display: flex;
+  height: 75px;
+  background-color: #7B93DB;
+}
+
+#j {
+  display: flex;
+  height: 75px;
+  background-color: #4C63B6;
+
+}
+
+#k {
+  display: flex;
+  grid-column: span 2;
+  width: 100%;
+  height: 75px;
+  background-color: #2D3A8C;
+}
+
+#l {
+  grid-column: span 2;
+  height: 175px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/l.jpg?raw=true");
+  background-size: 100% 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#m {
+  grid-column: span 2;
+  height: 175px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/m.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#n {
+  grid-column: span 2;
+  height: 275px;
+  background-color: #FFFFFF;
+}
+
+#o {
+  grid-column: span 2;
+  height: 275px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/o.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#p {
+  grid-column: span 2;
+  height: 275px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/p.jpg?raw=true");
+  background-size: 100% 100%;
+}
+
+#q {
+  grid-column: span 4;
+  height: 275px;
+  background-image: url("https://github.com/funwebdev-3rd-ed/projects-start/blob/master/chapter07/project2/images/q.jpg?raw=true");
+  background-repeat: no-repeat;
+    background-size: 30% 100%;
+  background-color: #FFFFFF;
+}
+#today
+{
+  background-color: #EF4E4E;
+  color: #FFFFFF;
+  flex-basis: 100%;
+  align-self: center;
+  justify-content: center;
+  height: 50%;
+
+}
+#Flight
+{
+  background-color: #EF4E4E;
+  color: #FFFFFF;
+  flex-basis: 100%;
+  align-self: center;
+  justify-content: center;
+  height: 75%;
+}
+#windows
+{
+  text-align: center;
+  flex-basis: 100%;
+  align-self: center;
+  justify-content: center;
+}
+#plane
+{
+  text-align: center;
+  flex-basis: 100%;
+  align-self: center;
+  justify-content: center;
+}
+img
+{
+  max-width: 100%;
+}
+
+
+/* styles for mobile protrait screen */
+
+/* styles for tablet portrait and mobile landscape screens */
+@media(max-width:850px){
+.container{font-size: .5em}
+.container{display:flex;}
+.container {flex-wrap: wrap;}
+.container {width: 100%;}
+
+  }
+}
